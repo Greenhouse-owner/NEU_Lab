@@ -136,6 +136,11 @@ public class MainJFrame extends javax.swing.JPanel {
     cardLayout.show(mainContentPanel, "manageVehicles");
 }
 
+    // Getter method for mainContentPanel
+    public javax.swing.JPanel getMainContentPanel() {
+        return mainContentPanel;
+    }
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Manage;
     private javax.swing.JButton Services;
