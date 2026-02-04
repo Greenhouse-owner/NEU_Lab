@@ -8,7 +8,7 @@ package Model;
  *
  * @author Administrator
  */
-class Address {
+public class Address {
     String streetName;
     String unitNum;
     String city;
